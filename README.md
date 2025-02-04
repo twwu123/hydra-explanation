@@ -217,4 +217,3 @@ The biggest change is obviously the fact that transaction fees are 0. A more sub
 But DeltaDefi allows this, because we want to allow users to create an infinite amount of orders as they wish. The problem this raises, is that any state that contains UTxOs with 0 ADA makes it impossible to close. Our DEX will be in such an unclosable state for 99% of its lifetime, and only at the last moment, we will reconcile the state to a closable state, and close the Hydra head.
 
 This means that any time anything goes wrong, the head is doomed and cannot be closed.
-# hydra-explanation
